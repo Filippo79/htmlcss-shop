@@ -1,0 +1,63 @@
+
+.container{
+
+
+}
+.ipad1 {
+background-image: url(../img/ipad.jpg);
+background-size: 300px auto;
+background-repeat: no-repeat;
+background-position: center;
+background-color: white;
+width: 400px;
+height: 400px;
+
+
+}
+.iphonese1 {
+background-image: url(../img/iphonese.jpg);
+background-size: 350px auto;
+background-repeat: no-repeat;
+background-position: center;
+background-color: white;
+width: 400px;
+height: 400px;
+position: relative;
+left: 400px;
+bottom: 400px;
+}
+.cuffie1 {
+background-image: url(../img/cuffie.jpeg);
+background-size: 300px auto;
+background-repeat: no-repeat;
+background-position: center;
+background-color: white;
+width: 400px;
+height: 400px;
+position: relative;
+left: 800px;
+bottom: 800px;
+}
+.scoipa1 {
+background-color: red;
+width: 60px;
+height: 40px;
+position: relative;
+left: 340px;
+}
+.scoiph1 {
+background-color: red;
+width: 60px;
+height: 40px;
+position: relative;
+left: 340px;
+
+}
+.scocuf1 {
+background-color: red;
+width: 60px;
+height: 40px;
+position: relative;
+left: 340px;
+
+}
