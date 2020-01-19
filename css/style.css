@@ -1,63 +1,39 @@
-
-.container{
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.prodotto {
+    display: inline-block;
+    position: relative;
 
 }
-.ipad1 {
-background-image: url(../img/ipad.jpg);
-background-size: 300px auto;
-background-repeat: no-repeat;
-background-position: center;
-background-color: white;
-width: 400px;
-height: 400px;
-
-
+.prodotto img {
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+    background-color: lightgrey;
 }
-.iphonese1 {
-background-image: url(../img/iphonese.jpg);
-background-size: 350px auto;
-background-repeat: no-repeat;
-background-position: center;
-background-color: white;
-width: 400px;
-height: 400px;
-position: relative;
-left: 400px;
-bottom: 400px;
+.sconto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: orange;
 }
-.cuffie1 {
-background-image: url(../img/cuffie.jpeg);
-background-size: 300px auto;
-background-repeat: no-repeat;
-background-position: center;
-background-color: white;
-width: 400px;
-height: 400px;
-position: relative;
-left: 800px;
-bottom: 800px;
+.cuore {
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: none;
 }
-.scoipa1 {
-background-color: red;
-width: 60px;
-height: 40px;
-position: relative;
-left: 340px;
-}
-.scoiph1 {
-background-color: red;
-width: 60px;
-height: 40px;
-position: relative;
-left: 340px;
-
-}
-.scocuf1 {
-background-color: red;
-width: 60px;
-height: 40px;
-position: relative;
-left: 340px;
-
+.prodotto:hover .cuore {
+    display: block;
 }
